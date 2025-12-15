@@ -104,6 +104,9 @@ d2$Caus <- as.factor(d2$Caus)
 d2$Trans <- as.ordered(d2$Trans)
 ```
 
+#Relevel so Poss is the reference level
+d2$Caus <- relevel(factor(d2$Caus), ref = "Poss")
+
 Fit the data using CLMM
 
 ```{r}
