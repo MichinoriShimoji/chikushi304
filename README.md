@@ -1,27 +1,31 @@
 ## 現代日本語における無生物主語他動詞文の容認性について
-Author: Michinori Shimoji
-Date: 2025/12/15
-Libraries required for the statistical analyses using R
-tidyverse
-ordinal
-MASS
-effects
-emmeans
-Script files contained in this analysis:
-preprocessing.Rmd: for editing the raw data for further analyses
-analysis.Rmd: for the analysis with Cumulative Link Mixed Effects Model and their resulting plots
 
-### Script
-- rscript.Rmd: R scropts for the whole series of analyses in experiments 1 (animacy and transitivity) and 2 (causation)
+Author: Michinori Shimoji Date: 2025/12/15 Libraries required for the statistical analyses using R tidyverse ordinal MASS effects emmeans Script files contained in this analysis:
+
+### R script
+
+-   rscript.Rmd: R scropts for the whole series of analyses in experiments 1 (animacy and transitivity) and 2 (causation)
 
 ### Data
-- d1 (for experiment 1: animacy and transitivity)
-- d2 (for experiment 2: causation)
+
+-   d1 (for experiment 1: animacy and transitivity), n = 205
+-   d2 (for experiment 2: causation), n = 198
 
 ### Stimuli
-- stimuli_antitrans.png (stumulus sentences for experiment 1)
-- stumuli_caus.png (stimulus sentences for experiment 2)
 
-### Result summary
-- result_animtrans.png (experiment 1)
-- result_caus.png (experiment 2)
+-   stimuli_antitrans.png (stimulus sentences for experiment 1)
+
+-   stumuli_caus.png (stimulus sentences for experiment 2)
+
+### Descriptive summaries of the results of each experiment
+
+-   result_animtrans.png (experiment 1)
+-   result_caus.png (experiment 2)
+
+### Details of modeling and parameter estimation using CLMM
+
+-   estimate_animtrans.png (experiment 1)
+-   interaction_atmodel.png (experiment 1, interaction considered)
+-   estimate_caus.png (experiment 2)
+-   anova_animtrans.png (experiment 1)
+-   anova_caus.png (experiment 2)
