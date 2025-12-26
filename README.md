@@ -1,6 +1,16 @@
 ## 現代日本語における無生物主語他動詞文の容認性について
 
-Author: Michinori Shimoji Date: 2025/12/15 Libraries required for the statistical analyses using R tidyverse ordinal MASS effects emmeans Script files contained in this analysis:
+Author: Michinori Shimoji Date: 2025/12/15 
+
+### Slides
+- inanim-chikushi.pdf
+
+### Libraries required for the statistical analyses using R
+- tidyverse
+- ordinal
+- MASS
+- effects
+- emmeans 
 
 ### R script
 
